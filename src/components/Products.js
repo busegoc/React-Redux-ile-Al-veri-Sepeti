@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-
+import { sepeteEkle } from "../actions";
 
 const Products = props => {
   return (
@@ -21,7 +21,7 @@ const Products = props => {
           <h4>{book.name}</h4>
           <p>Yazar: {book.author}</p>
           <p>Fiyat: &#8378; {book.price}</p>
-          <button>Sepete Ekle</button>
+          <button onClick={()=> props.sepeteEkle(book)}>Sepete Ekle</button>
         </div>
       </div>
         ))
@@ -40,4 +40,4 @@ const mapStateToProps = state => {
 
 
 
-export default connect(mapStateToProps)(Products);
+export default connect(mapStateToProps, {sepeteEkle})(Products);
