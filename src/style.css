@@ -1,0 +1,58 @@
+.header{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.header-title{
+    font-size: 30px;
+}
+.bookListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 120px;
+  }
+  
+  .book {
+    width: 30%; 
+    margin-bottom: 20px;
+    position: relative; 
+    overflow: hidden;
+  }
+  
+  .book img {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 25px;
+    margin-bottom: 50px;
+  }
+  
+  .book:hover img {
+    transform: scale(1.1); 
+  }
+
+  .add-button{
+    background-color: rgb(133, 139, 215) !important;
+  }
+
+  /* Responsive tasarım için medya sorguları */
+@media (max-width: 768px) {
+    .book {
+      width: 48%; 
+    }
+    .bookListContainer{
+        padding: 55px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .book {
+      width: 100%; 
+    }
+    .bookListContainer{
+        padding: 55px;
+    }
+  }

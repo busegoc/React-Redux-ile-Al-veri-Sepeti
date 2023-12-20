@@ -21,7 +21,7 @@ export const data = [
       author: "Zana Muhsen",
       price: 16.99,
       image:
-        "https://content.babil.com/urun/13df0fdbdfbe477d8c8ee30d2e15292c/Front/Big"
+        "https://i.dr.com.tr/cache/500x400-0/originals/0000000622522-1.jpg"
     },
     {
       id: 4,
@@ -38,6 +38,13 @@ export const data = [
       price: 25.99,
       image:
         "https://images-na.ssl-images-amazon.com/images/I/414N7XbRE%2BL._SX344_BO1,204,203,200_.jpg"
+    },
+    {
+      id:6,
+      name:"Şeker Portakalı",
+      author:"Jose Mauro De Vasconcelos",
+      price:84.99,
+      image:"https://i.dr.com.tr/cache/500x400-0/originals/0000000064031-1.jpg"
     }
   ];
   

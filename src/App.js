@@ -7,12 +7,8 @@ import Cart from "./components/Cart";
 const App = (props) => {
   console.log(props.bookList);
   return (
-    <div className="App">
-      <h1>
-        Alışveriş Sepeti Yapımı
-        {" / "}
-        React Dersleri
-      </h1>
+    <div>
+    
       <br/>
       <Routes>
       <Route  path="/" element={<Products/>} />
