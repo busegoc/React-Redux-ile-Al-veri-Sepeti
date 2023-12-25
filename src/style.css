@@ -10,7 +10,7 @@
 .bookListContainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     padding: 120px;
   }
   
@@ -37,7 +37,10 @@
   .add-button{
     background-color: rgb(133, 139, 215) !important;
   }
-
+.header-cart{
+  display: flex;
+  justify-content: center;
+}
   /* Responsive tasarım için medya sorguları */
 @media (max-width: 768px) {
     .book {
